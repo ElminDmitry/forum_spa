@@ -5,14 +5,14 @@ default: &default
 
 development:
   <<: *default
-  database: ix_development
+  database: forum_spa_development
 
 test:
   <<: *default
-  database: ix_test
+  database: forum_spa_development_test
 
 production:
   <<: *default
-  database: ix_production
+  database: forum_spa_development_production
   username: <%= ENV['DATABASE_USERNAME'] %>
   password: <%= ENV['DATABASE_PASSWORD'] %>
