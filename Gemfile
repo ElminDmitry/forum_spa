@@ -36,6 +36,7 @@ gem 'gon'
 gem 'carrierwave'
 # A simple, fast Mysql library for Ruby, binding to libmysql (http://github.com/brianmario/mysql2)
 gem 'mysql2',          '~> 0.3.18', platform: :ruby
+gem 'jdbc-mysql',      '= 5.1.35', platform: :ruby
 # A smart wrapper over Sphinx for ActiveRecord (https://pat.github.io/thinking-sphinx/)
 gem 'thinking-sphinx', '~> 3.1.4'
 # Manipulate images with minimal use of memory via ImageMagick / GraphicsMagick (https://github.com/minimagick/minimagick)
